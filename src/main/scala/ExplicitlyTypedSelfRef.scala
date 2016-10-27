@@ -1,8 +1,7 @@
 
 //** There are two user case, the first is to hold reference to an enclosing when this
 //** is ambiguous. The second is to allow a difference type of composition of object
-//** then would be allow by inheritance
-
+//** then would be allow by inheritance.
 abstract class Graph{
   type Edge
   type Node <: NodeIntf
